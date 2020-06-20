@@ -1,7 +1,7 @@
 It is a brief pipeline to extract data from datasets in [here](http://139.129.209.66:8000/d/daedafb854/)
 
 
-In this work, I use R, Bash and Python to extract different countries different indicators in different years. The data have some property: big, not unified(.RData or .csv), some have mistakes. It is very sparse so it waste many storage. And the conversion of Rdata to csv leads some mistakes, so it needs very careful examination and check work. At first I want to store all of them in HDF5 for better IO, but people in my girl friend's working team are't familiar with codes, so I store them in csv. I also think about later work(for example, basic statistical work, model the interaction and time series, maybe a hierarchical time series machine learning model), but I am too busy to help my little bragger to do all kinds of things.
+In this work, I use R, Bash and Python to extract different countries different indicators in different years. The data have some property: big, not unified(.RData or .csv), some have mistakes. It is very sparse so it waste many storage. And the conversion of Rdata to csv leads some mistakes, so it needs very careful examination and check work. At first I want to store all of them in HDF5 for better IO, but i'm not familiar with codes, so I store them in csv. 
 
 
 #### wget to extract data
